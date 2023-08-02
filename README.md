@@ -11,3 +11,5 @@ api má aj volitelný druhý parameter a to ```currencies=```
 s vymenovanými trojpísmenovými značeniami mien odelenými čiarkami.
 
 pre konkrétne príklady viz. [here](request.http)
+
+zadanie mi trvalo cca 1:40, bonusové body ako credential, filtrovanie a unit testy cca ďalšie dve hodiny
