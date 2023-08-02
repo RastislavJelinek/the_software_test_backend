@@ -1,0 +1,12 @@
+
+### try to GET all currenices, no credential, error response
+GET http://localhost:8080/api
+
+### try to GET specified currenices, no credential, error response
+GET http://localhost:8080/api?currencies=USD,CHF
+
+###  GET specified currenices, with valid credentials
+GET http://localhost:8080/api?id=testCredential&currencies=USD,CHF
+
+###  GET all currenices, with valid credentials
+GET http://localhost:8080/api?id=testCredential
